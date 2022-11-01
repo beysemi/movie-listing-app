@@ -1,0 +1,32 @@
+{
+    "movies" : [
+        {
+            "id" : "1",
+            "movieID" : "507086",
+            "title" : "Jurassic World Dominion",
+            "imageURL" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+            "rating" : "7,7"
+        },
+        {
+            "id" : "2",
+            "movieID" : "90802",
+            "title" : "The Sandman",
+            "imageURL" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
+            "rating" : "8.2"
+        },
+        {
+            "id" : "3",
+            "movieID" : "66732",
+            "title" : "Stranger Things",
+            "imageURL" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+            "rating" : "8.6"
+        },
+        {
+            "id" : "4",
+            "movieID" : "848123",
+            "title" : "Black Site",
+            "imageURL" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ipn8khVVC4eToWiGf89WF9J5PJn.jpg",
+            "rating" : "7,2"
+        }
+    ]
+}
