@@ -23,7 +23,6 @@ const UpcomingMovieSlider = ({ title, initialData }) => {
     if (!data && !initialData) {
         setIsLoading(true);
     };
-    console.log(data)
     return (
         <Section>
             <Container fluid className="p-0">

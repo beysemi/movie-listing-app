@@ -23,7 +23,6 @@ const Genres = () => {
 
 export async function getServerSideProps({res, query}) {
     const genreName = query.slug;
-    console.log(genreName)
     // const data = await axios.get(`${mediaType}/${mediaId}`);
     // if(mediaType !== "movie" && mediaType !== "tv" || data == undefined) {
     //   res.statusCode = 404;

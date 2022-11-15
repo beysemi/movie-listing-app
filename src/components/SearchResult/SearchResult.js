@@ -46,7 +46,6 @@ const SearchResult = ({ searchQuery }) => {
 
   if (error) return <div>Failed to load</div>;
   if (searchQuery == undefined) return "Arama";
-  console.log(data)
   return (
     <>
       {data && totalResult == 0 ? (

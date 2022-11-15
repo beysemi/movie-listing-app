@@ -7,7 +7,6 @@ import Col from "react-bootstrap/Col";
 import { Star, Play } from '../../components/Icons';
 
 const DetailArea = ({ data }) => {
-    console.log(data)
     return (
         <MovieSection>
             <Row>

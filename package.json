@@ -13,6 +13,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "lazy-load-images": "^1.0.1",
+    "lint": "^0.7.0",
     "next": "12.1.1",
     "react": "17.0.2",
     "react-bootstrap": "^2.2.2",

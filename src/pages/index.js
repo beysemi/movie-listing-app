@@ -20,7 +20,7 @@ const Homepage = ({initialTrendingData,initalTopRatedData}) => {
     <>
       <Layout title={Meta.title} description={Meta.description} image={Meta.image}>
         <Header />
-        <Hero title="Movie App" text="Lorem Impsum" />
+        <Hero title="Movie App" text="Millions of movies, TV shows and people to discover. Explore now." />
         <TrendingSlider title="Trending" initialData={initialTrendingData}/>
         <TopRatedSlider title="Top Rated" initialData={initalTopRatedData} />
       </Layout>
@@ -29,7 +29,7 @@ const Homepage = ({initialTrendingData,initalTopRatedData}) => {
 }
 
 export async function getServerSideProps() {
-  const initialTrendingData = await axios.get(TRENDING_ALL_WEEK);
+  const initialTrendingData = await axios.get(TRENDING_ALL_nWEEK);
   const initalTopRatedData = await axios.get(DISCOVER_MOVIE, {
       params: {
         sort_by: "vote_count.desc",

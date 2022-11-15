@@ -54,7 +54,6 @@ const PosterSlider = ({ data , isLoading , mediaType }) => {
 
         ],
     };
-    console.log(data)
     return (
         <Slider {...settings}>
             

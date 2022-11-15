@@ -36,11 +36,11 @@ const Header = () => {
                                 <NavigationLink>TV Shows</NavigationLink>
                             </Link>
                         </NavigationItem>
-                        <NavigationItem>
+                        {/* <NavigationItem>
                             <Link href="/report">
                                 <NavigationLink>Report</NavigationLink>
                             </Link>
-                        </NavigationItem>
+                        </NavigationItem> */}
                     </NavigationList>
                 </Navigation>
                 <NavigationToggle onClick={() => handleToggle()} active={isOpen}>
