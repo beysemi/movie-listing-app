@@ -29,7 +29,7 @@ const Homepage = ({initialTrendingData,initalTopRatedData}) => {
 }
 
 export async function getServerSideProps() {
-  const initialTrendingData = await axios.get(TRENDING_ALL_nWEEK);
+  const initialTrendingData = await axios.get(TRENDING_ALL_WEEK);
   const initalTopRatedData = await axios.get(DISCOVER_MOVIE, {
       params: {
         sort_by: "vote_count.desc",
