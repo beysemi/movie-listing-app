@@ -33,7 +33,7 @@ const Header = () => {
                         </NavigationItem>
                         <NavigationItem>
                             <Link href="/tv-shows" passHref>
-                                <NavigationLink>TV Shows</NavigationLink>
+                                <NavigationLink onClick={()=>handleToggle()}>TV Shows</NavigationLink>
                             </Link>
                         </NavigationItem>
                         {/* <NavigationItem>
