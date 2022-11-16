@@ -38,7 +38,7 @@ const  TopRatedSlider = ({title,initialData}) => {
           <Row className="m-0">
               <Col xs={12} md={12} lg={12} className="d-flex justify-content-between align-items-center">
                   <SectionTitle>{title}</SectionTitle>
-                  <BSDropdownButton id="dropdown-basic-button" title={mediaType == "movie" ? "Movies" : "Tv Shows"}>
+                  <BSDropdownButton id="dropdown-basic-button" title={mediaType == "movie" ? "Movies" : "Tv Shows"} align="end">
                       <BSDropdown.Item onClick={()=>{setMediaType("movie")}}>Movie</BSDropdown.Item>
                       <BSDropdown.Item onClick={()=>{setMediaType("tv")}}>Tv Shows</BSDropdown.Item>
                   </BSDropdownButton>

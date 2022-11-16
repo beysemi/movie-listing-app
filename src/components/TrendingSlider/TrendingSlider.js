@@ -32,7 +32,7 @@ const TrendingSlider = ({title,initialData}) => {
               <Col xs={12} md={12} lg={12}>
                   <SectionHead>
                     <SectionTitle>{title || <Skeleton/>}</SectionTitle>
-                    <BSDropdownButton id="dropdown-basic-button" title={timeWindow == "week" ? "Weekly" : "Daily"}>
+                    <BSDropdownButton id="dropdown-basic-button" title={timeWindow == "week" ? "Weekly" : "Daily"} align="end">
                       <BSDropdown.Item onClick={()=>{setTimeWindow("week")}}>Weekly</BSDropdown.Item>
                       <BSDropdown.Item onClick={()=>{setTimeWindow("day")}}>Daily</BSDropdown.Item>
                     </BSDropdownButton>
