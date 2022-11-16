@@ -20,7 +20,7 @@ const Homepage = ({initialTrendingData,initalTopRatedData}) => {
     <>
       <Layout title={Meta.title} description={Meta.description} image={Meta.image}>
         <Header />
-        <Hero title="Movie App" text="Millions of movies, TV shows and people to discover. Explore now." />
+        <Hero title="Movie Listing App" text="Millions of movies, TV shows and people to discover. Explore now." />
         <TrendingSlider title="Trending" initialData={initialTrendingData}/>
         <TopRatedSlider title="Top Rated" initialData={initalTopRatedData} />
       </Layout>
