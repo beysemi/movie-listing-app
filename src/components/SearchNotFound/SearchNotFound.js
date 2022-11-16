@@ -13,7 +13,7 @@ const SearchNotFound = () => {
                 <Row>
                     <Col xs={12} md={12} lg={12}>
                         <NotFoundImgWrapper>
-                            <Image width={400} height={320} src="/film-rolls.png"/>
+                            <Image width={400} height={320} src="/film-rolls.png" alt=""/>
                             <h3>Lost your way?</h3>
                             <p>Oops! This is awkward. You are looking for something that doesn't actually exist.</p>
                         </NotFoundImgWrapper>   

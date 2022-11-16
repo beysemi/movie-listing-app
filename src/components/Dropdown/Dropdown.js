@@ -8,7 +8,7 @@ const Dropdown =  ({title,list,onClick})  => {
         {
             list.map((item, key) => {
                 return (
-                    <BSDropdown.Item href={item.href || '#'} onClick={onClick} >{item.name}</BSDropdown.Item>
+                    <BSDropdown.Item key={key} href={item.href || '#'} onClick={onClick} >{item.name}</BSDropdown.Item>
                 )
             })
         }

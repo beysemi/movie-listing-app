@@ -27,17 +27,17 @@ const Header = () => {
                 <Navigation active={isOpen}>
                     <NavigationList>
                         <NavigationItem>
-                            <Link href="/movies">
+                            <Link  href="/movies" passHref>
                                 <NavigationLink>Movies</NavigationLink>
                             </Link>
                         </NavigationItem>
                         <NavigationItem>
-                            <Link href="/tv-shows">
+                            <Link href="/tv-shows" passHref>
                                 <NavigationLink>TV Shows</NavigationLink>
                             </Link>
                         </NavigationItem>
                         {/* <NavigationItem>
-                            <Link href="/report">
+                            <Link href="/report" passHref>
                                 <NavigationLink>Report</NavigationLink>
                             </Link>
                         </NavigationItem> */}
