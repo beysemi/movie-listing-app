@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {HeaderWrapper, BrandWrapper, Navigation, NavigationList, NavigationItem, NavigationLink, NavigationToggle } from './style'
@@ -8,12 +8,15 @@ import {HeaderWrapper, BrandWrapper, Navigation, NavigationList, NavigationItem,
 
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);7
     const handleToggle = () => {
         setIsOpen(!isOpen);
         document.querySelector('body').classList.toggle('no-scroll');
 
     }
+    useEffect(() => {
+        document.querySelector('body').classList.remove('no-scroll');
+    },[])
     return (
         <>
             <HeaderWrapper>
